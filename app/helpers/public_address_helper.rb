@@ -1,0 +1,2 @@
+module PublicAddressHelper
+end

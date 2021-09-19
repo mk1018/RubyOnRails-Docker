@@ -3,4 +3,9 @@ Rails.application.routes.draw do
 
   get '/hello', to: 'test#hello'
 
+  Rails.application.routes.draw do
+    resources :my_address
+    resources :public_address
+  end
+
 end
